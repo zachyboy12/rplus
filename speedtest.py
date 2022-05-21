@@ -1,4 +1,4 @@
-import __init__ as rplus
+import rplus
 
 path = 'PATH TO R+ HERE'
 print('r+ (rplus) speed test:')
