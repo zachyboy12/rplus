@@ -1,6 +1,6 @@
 import __init__ as rplus
 
-path = '/Applications/d/rplus'
+path = 'PATH TO R+ HERE'
 print('r+ (rplus) speed test:')
 print('Random word generator #1:', rplus.randomwordgen1(5, True))
 print('Random word generator #2:', rplus.randomwordgen2(True))
