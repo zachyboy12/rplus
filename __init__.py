@@ -1,10 +1,12 @@
-"""Generates the randomist numbers/items possible.
+"""
+Generates the randomist numbers/items possible.
 Powered by random.randint, secrets.choice, and time.strftime, which are not third-party modules.
 The pros:
 - Detects if number was generated earlier
 - Has a function which generates the hour + the minute of the time, which is really random
 The cons:
-- Is really slow"""
+- Is really slow
+"""
 from random import randint as __randint
 from time import time as __time, strftime as __strftime
 from secrets import choice as __choice
